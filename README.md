@@ -104,14 +104,14 @@ cat > file11
 Hello world
 This is my world
 ^d
-```
+
 cat > file22
-```
+
 1001 | Ram | 10000 | HR
 1002 | tom |  5000 | Admin
 1003 | Joe |  7000 | Developer
 ^d
-```
+
 
 
 cut -c1-3 file11
@@ -1458,12 +1458,14 @@ else
 fi
 ```
 ## OUTPUT 
+```
 Enter the number
 121
 Number is palindrome
 Enter the number
 69
 Number is NOT palindrome
+```
 
 
 # RESULT:
