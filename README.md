@@ -313,7 +313,7 @@ Unix is predecessor
 Linux is best in this World
 
 cat > file23
-```
+
 1001 | Ram | 10000 | HR
 1001 | Ram | 10000 | HR
 1002 | tom |  5000 | Admin
@@ -323,7 +323,7 @@ cat > file23
 1003 | Joe |  7000 | Developer
 1001 | Ram | 10000 | HR
 ^d
-```
+
 
 
 sed -n -e '3p' file23
@@ -490,13 +490,13 @@ sed -n '2,4{s/$/*/;p}' file23
 
 #Sorting File content
 cat > file21
-```
+
 1001 | Ram | 10000 | HR
 1002 | tom |  5000 | Admin
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-``` 
+
 sort file21
 ```
 ## OUTPUT
@@ -508,14 +508,14 @@ sort file21
 1005 | Sam | 5000 | HR
 
 cat > file22
-```
+
 1001 | Ram | 10000 | HR
 1001 | Ram | 10000 | HR
 1002 | tom |  5000 | Admin
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-``` 
+
 uniq file22
 ```
 ## OUTPUT
@@ -543,18 +543,18 @@ cat file23 | tr [:lower:] [:upper:]
 1001 | RAM | 10000 | HR
 
 cat < urllist.txt
-```
+
 www. yahoo. com
 www. google. com
 www. mrcet.... com
 ^d
- ```
+ 
 cat > urllist.txt
-```
+
 www. yahoo. com
 www. google. com
 www. mrcet.... com
- ```
+ 
 cat urllist.txt | tr -d ' '
 ```
  ## OUTPUT
