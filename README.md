@@ -1,8 +1,7 @@
 ## NAME:RAMYA P
 ## REGISTER NUMBER:212223230168
 
-# OS-Linux-commands-Shell-scripting
-Operating systems Lab exercise
+
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
@@ -21,7 +20,7 @@ Execute the following commands
 
 ### Step 3:
 
-Testing the commands for the desired output. 
+Testing commands for the desired output. 
 
 # COMMANDS:
 ### Create the following files file1, file2 as follows:
@@ -102,7 +101,9 @@ diff file1 file2
 cat > file11
 ```
 Hello world
+```
 This is my world
+```
 ^d
 ```
 cat > file22
@@ -143,7 +144,9 @@ Joe
 cat < newfile 
 ```
 Hello world
+```
 hello world
+```
 ^d
 ```
 cat > newfile 
@@ -170,6 +173,7 @@ grep -v hello newfile
 ## OUTPUT
 ```
 Hello world
+```
 
 
 cat newfile | grep -i "hello"
@@ -177,49 +181,62 @@ cat newfile | grep -i "hello"
 ## OUTPUT
 ```
 Hello world
+```
 hello world
+```
 
 
 
 cat newfile | grep -i -c "hello"
-```
+
 ## OUTPUT
 ```
 2
 
-
+```
 
 grep -R ubuntu /etc
-```
+
 ## OUTPUT
 ```
 recursion
-
+```
 
 grep -w -n world newfile
-```
+
 ## OUTPUT
 ```
 1:Hello world
+```
 2:hello world
-
+```
 cat < newfile 
 ```
 Hello world
+```
 hello world
+```
 Linux is world number 1
+```
 Unix is predecessor
+```
 Linux is best in this World
+```
 ^d
 ```
 
 cat > newfile
 ```
 Hello world
+```
 hello world
+```
 Linux is world number 1
+```
 Unix is predecessor
+```
 Linux is best in this World
+```
 ^d
  ```
 egrep -w 'Hello|hello' newfile
@@ -227,29 +244,32 @@ egrep -w 'Hello|hello' newfile
 ## OUTPUT
 ```
 Hello world
+```
 hello world
 ```
 
 egrep -w '(H|h)ello' newfile
-
+```
 ## OUTPUT
 ```
 Hello world
+```
 hello world
 ```
 
 
 egrep -w '(H|h)ell[a-z]' newfile
-
+```
 ## OUTPUT
 ```
 Hello world
+```
 hello world
 ```
 
 
 egrep '(^hello)' newfile
-
+```
 ## OUTPUT
 ```
 hello world
@@ -324,13 +344,21 @@ Linux is best in this World
 cat > file23
 ```
 1001 | Ram | 10000 | HR
+```
 1001 | Ram | 10000 | HR
+```
 1002 | tom |  5000 | Admin
+```
 1003 | Joe |  7000 | Developer
+```
 1005 | Sam |  5000 | HR
+```
 1004 | Sit |  7000 | Dev
+```
 1003 | Joe |  7000 | Developer
+```
 1001 | Ram | 10000 | HR
+```
 ^d
 ```
 
@@ -592,9 +620,9 @@ uniq file22
 ```
 
 #Using tr command
-
+```
 cat file23 | tr [:lower:] [:upper:]
-
+```
  ## OUTPUT
  ```
 1001 | RAM | 10000 | HR
@@ -673,9 +701,13 @@ tar -tvf backup.tar
 ## OUTPUT
 ```
 -rw-r--r-- user/group 0 2024-02-25 14:30:00 file1.txt
+```
 drwxr-xr-x user/group 0 2024-02-25 14:30:00 directory1/
+```
 -rw-r--r-- user/group 1024 2024-02-25 14:30:00 directory1/file2.txt
+```
 -rw-r--r-- user/group 2048 2024-02-25 14:30:00 directory1/file3.txt
+```
 
 tar -xvf backup.tar
 ```
@@ -1563,4 +1595,4 @@ Number is NOT palindrome
 
 
 # RESULT:
-The Commands are executed successfully.
+ Thus the Commands are executed successfully.
