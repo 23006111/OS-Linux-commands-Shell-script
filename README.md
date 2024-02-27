@@ -1229,12 +1229,19 @@ Khammam
 ## OUTPUT
 ```
 Visit beautiful Hyderabad
+```
 Visit beautiful Alampur
+```
 Visit beautiful Basara
+```
 Visit beautiful Warangal
+```
 Visit beautiful Adilabad
+```
 Visit beautiful Bhadrachalam
+```
 Visit beautiful Khammam
+```
 
 cat forctype.sh 
 ```bash
@@ -1251,10 +1258,15 @@ $ ./forctype.sh
 ## OUTPUT
 ```
 The value of i is 1
+```
 The value of i is 2
+```
 The value of i is 3
+```
 The value of i is 4
+```
 The value of i is 5
+```
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -1353,9 +1365,13 @@ $ ./forcontinue.sh
 ## OUTPUT
 ```
  Iteration number: 1
+ ```
 Iteration number: 2
+```
 Iteration number: 4
+```
 Iteration number: 5
+```
 The for loop is completed
 cat exread.sh 
 ```bash
@@ -1373,8 +1389,9 @@ $ ./exread.sh
 ## OUTPUT
 ```
 Enter your name: John
+```
 Hello John, welcome to my program.
-
+```
  cat exread1.sh
 ```bash
 #!/bin/bash
@@ -1388,7 +1405,9 @@ $ chmod 755 exread1.sh
 ## OUTPUT
 ```
 Enter your name: ramya 
+```
 Hello ramya, welcome to my program.
+```
 
 
 $ ./exread1.sh 
@@ -1502,8 +1521,11 @@ awk -f nc.awk data.dat
 ## OUTPUT
 ```
  total characters 75
+ ```
 Number of Lines are 10
+```
 No of Words count: 10 
+```
 cat > palindrome.sh
 ```bash
 #num=545
